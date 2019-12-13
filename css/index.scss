@@ -1,0 +1,104 @@
+
+.head{
+    height: 80px;
+    display: flex;
+    background: #191919;
+    text-align: center;
+    display: flex;
+    
+    
+    .head_left{
+        width: 233px;
+        float: left;
+        margin:{
+            left:30px;
+        }
+        
+        #logo{
+            width:233px;
+            height:40px;
+            margin:{
+                top:20px;
+            }
+        }
+    }
+    .head_center{
+        display: flex;
+        height: 80px;
+        
+        margin: 0 auto;
+        color: aliceblue;
+        justify-content: space-between;
+        text-align: center;
+       
+        ul{
+            display: flex;
+            justify-content: space-between;
+            width:550px;
+            height: 80px;
+            font-size: 16px;
+            margin: 0 auto;
+            text-align: center;
+            li{
+                a{  
+                    float: left;
+                    padding:0 20px;
+                    line-height: 80px;
+                    color:hsla(0,0%,100%,.5);
+                }
+                .header_shop{
+                    background: hsla(0,0%,100%,.12);
+                    color: #fff;
+                }
+                a:hover{
+                    color: #fff;
+                }
+                
+            }
+        }
+        
+    }
+
+    .head_right{
+        display: flex;
+        width:250px;
+        height:80px;
+        margin:{
+            right:30px;
+        }
+        ul{
+            height:80px;
+            width:250px;
+            
+            display: flex;
+            justify-content: space-between;
+            li{
+                line-height: 80px;
+                a{
+                    color: hsla(0,0%,100%,.5);
+                    font-size: 13px;
+                    float: left;
+                }
+                .title_download_client{
+                    float: left;
+                    height: 36px;
+                    width: 103px;
+                    border-radius: 18px;
+                    border: 1px hsla(0,0%,100%,.1) solid;
+                    line-height: 36px;
+                    margin:{
+                        top:22px;
+                    }
+                }
+                .title_download_client:hover{
+                    background: #ffc800;
+                    color: #000;
+                }
+                
+            }
+            
+        }
+    }
+
+    
+}
